@@ -1,0 +1,11 @@
+STAFF,DOUBLE-BRST,BLOCK-SIZE-PREFERENCE,M,T,W,R,F
+Faculty_A,0,3,,,,,
+Faculty_B,0,3,,,,,
+Faculty_C,0,5,,,,,
+Faculty_D,1,5,,,,,
+Faculty_E,0,3,1,1,1,0,0
+Faculty_F,0,3,0,0,0,1,1
+Faculty_G,0,3,,,,,
+Faculty_H,0,3,,,,,
+Faculty_I,0,3,,,,,
+Faculty_J,0,3,,,,,
