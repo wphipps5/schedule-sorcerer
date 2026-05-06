@@ -1,24 +1,3 @@
-"""
-gyn_solver.py — AP faculty service coverage scheduler.
-
-Reads:
-  template.csv  — partial schedule with pre-fixed assignments
-                  (CYTOLOGY, VACATION, NON-CLINICAL, PROFESSIONAL, x)
-  staff.csv     — faculty names and one column per service (e.g. GYN, BRST)
-                  with proportional weight values (0 = not assigned to service)
-
-For each service column in staff.csv:
-  - Computes proportional day targets per faculty from weights
-  - Assigns sign-out days in 2-4 day blocks (3-day preferred), 1 person/day/service
-  - Faculty may not cover two services on the same day
-
-Faculty in staff.csv but absent from template are treated as fully available
-(no pre-fixed assignments).
-
-Usage:
-  python gyn_solver.py
-"""
-
 import sys
 import subprocess
 import importlib
