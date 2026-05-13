@@ -1,3 +1,4 @@
+![Banner](banner.png)
 # Schedule Sorcerer
 
 Schedule Sorcerer is a pair of constraint-programming schedulers for pathology training and service coverage workflows. The project uses Google OR-Tools CP-SAT models to turn structured CSV inputs into complete schedules while enforcing hard requirements and optimizing schedule quality.
